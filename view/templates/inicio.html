@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{nome}}}</title>
+</head>
+<body>
+    <!-- 
+        Formulário para crição de uma faixa musical
+        Quando clicado no input submit, os dados contidos no demais input de 
+        texto serão enviados para a rota contida na propriedade action (/salvar)
+    -->
+    <form action="/salvar" >
+        Musica:<input type="text" name="musica"><br>
+        Album:<input type="text" name="album" ><br>
+        Artista:<input type="text" name="artista" ><br>
+        <input type="submit" value="Salvar">
+    </form>
+</body>
+</html>
